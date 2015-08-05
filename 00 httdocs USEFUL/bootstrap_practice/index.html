@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <style>
+      .b1{border: 1px solid #000;}
+      .mart20{margin-top: 20px;}
+    </style>
+
+  </head>
+  <body>
+    <div class="container-fluid b1">
+      <h1>Hello, world!</h1>
+
+      <div class="row">
+        <div class="span4 b1">class="span4"</div>
+        <div class="span8 b1">class="span8"</div>
+        <div class="span12 b1">class="span12"</div>
+        <div class="span13 b1">class="span13"</div>
+      </div>
+
+      <div class="row mart20">
+        <div class="span4 b1">class="span4"</div>
+        <div class="span4 offset2 b1">class="span4 offset2"</div>
+      </div>
+
+      <div class="row mart20">
+        <div class="span10 b1">
+          Level 1 span10
+          <div class="row">
+            <div class="span6 b1">Level 2 span6</div>
+            <div class="span3 b1">Level 2 span3</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row-fluid mart20">
+        <div class="span4 b1">row-fluid span4</div>
+        <div class="span6 lead b1">row-fluid span6</div>
+      </div>
+    </div>
+
+    <table class="table b1 table-striped table-hover table-condensed">
+      <caption>User Table</caption>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="error">
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Addy</td>
+          <td>Thornton</td>
+          <td>@bot</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form class="b1">
+      <fieldset>
+        <legend>Legend</legend>
+
+        <label>FIND A FRIEND? </label>
+        <input type="text" placeholder="Search something" class="input-small">
+        
+        <span class="help-block">Example block-level help text here.</span>
+        
+        <div class="input-prepend input-append">
+          <span class="add-on"><i class="icon-envelope"></i> @</span>
+          <input type="text" placeholder="Enter username">
+          <span class="add-on">#zynkme</span>
+          <input  class="btn" type="submit">GO</span>
+          <button class="btn" type="button">Forget?</button>
+        </div>
+
+        <textarea rows="3"></textarea>
+
+        <label class="checkbox inline">
+          <input type="checkbox" value=""> 1
+        </label>
+        <label class="checkbox inline">
+          <input type="checkbox" value=""> 2
+        </label>
+
+        <label class="radio yellow">
+          <input type="radio" name="optionsRadios" value="option1" checked>
+          Yellow
+        </label>
+        <label class="radio red">
+          <input type="radio" name="optionsRadios" value="option2">
+          Red
+        </label>
+
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+         
+        <select multiple="multiple">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+
+
+        <div class="input-append">
+          <input type="text">
+          <div class="btn-group">
+            <button class="btn dropdown-toggle" data-toggle="dropdown">
+              Action
+              <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu">
+              <li><a href="#"><i class="icon-pencil"></i> Register</a></li>
+              <li><a href="#">Login</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Forget Password?</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn">Cancel</button>
+        </div>
+
+      </fieldset>
+    </form>
+
+
+    <i class="icon-search"></i>
+
+<div class="btn-toolbar">
+  <div class="btn-group">
+    <a class="btn" href="#"><i class="icon-align-left"></i></a>
+    <a class="btn" href="#"><i class="icon-align-center"></i></a>
+    <a class="btn" href="#"><i class="icon-align-right"></i></a>
+    <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+  </div>
+</div>
+
+<a class="btn btn-large" href="#"><i class="icon-star"></i> Star</a>
+
+
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

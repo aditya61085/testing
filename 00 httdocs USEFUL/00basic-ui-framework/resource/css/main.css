@@ -1,0 +1,62 @@
+/* Base structure - START */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/* Base structure - END */
+
+
+
+
+/* Login page - START */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.profile-img {
+    border-radius: 50%;
+    display: block;
+    height: 96px;
+    margin: 0 auto 10px;
+    width: 96px;
+}
+/* Login page - END */
+
+
+
+
+/*  page - START */
+
+
+
+/*  page - END */
+
+
+
+/*  page - START */
+
+
+
+/*  page - END */
+
+
+
+/*  page - START */
+
+
+
+/*  page - END */
+
+
+
